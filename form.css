@@ -1,0 +1,116 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  
+  h1 {
+    text-align: center;  
+  }
+  
+  input, select, textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #aaaaaa;
+  }
+  
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  .tab {
+    display: none;
+    margin-top: 120px;
+  }
+
+  
+  
+  
+  button {
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Arial;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #bbbbbb;
+  }
+  
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;   
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  .step.finish {
+    background-color: #4CAF50;
+  }
+  
+
+  .header{
+    position: fixed;
+    top:0; left: 0;right: 0;
+    z-index: 1000;
+    background: white;
+    box-shadow: 0.2rem .1rem rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    height: 5rem;
+
+}
+#logo{
+    width: 8rem;
+    height: 4rem;
+    display: grid;
+    
+}
+.header .nav{
+    font-size: 1.7rem;
+    color: blue;
+    margin: 0 5rem;
+    
+    
+}
+.link{
+    padding: 3rem;
+}
+
+.header .nav a:hover{
+    color:red
+}
+.btn{
+    border-radius: 5px;
+    
+}
