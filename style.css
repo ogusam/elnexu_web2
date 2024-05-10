@@ -316,3 +316,72 @@ section{
 
   }
   
+  /* FOOTER*/
+  .footer{
+    background:#3E4095;
+  }
+
+  .footer .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    text-align:justify;
+    justify-items: center;
+  }
+  .footer .box-container .contact-box h3{
+    font-size: 2.2rem;
+    padding: 1rem;
+  }
+
+  .footer .box-container .contact-box a{
+    font-size: 1.6rem;
+    display: block;
+    color: white;
+    padding: 1rem 0;
+  }
+
+  .foot .box-container .contact-box a i{
+    padding-right: .5rem;
+  }
+  .footer .box-container .contact-box a:hover{
+    color:#ED3237;
+  }
+
+.footer .share{
+    padding-top: 2rem;
+    text-align: center;
+    
+}
+
+.footer .share a{
+    color: #FEF4F5;
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    border: .1rem solid;
+    margin: .3rem;
+    margin-top: 1.5rem;
+}
+
+.footer .share a:hover{
+    color: white;
+    background:#3E4095;
+    transform: rotate(360deg);
+}
+.footer .copyright{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+
+    .partner img{
+    width: 8rem;
+    height: 8rem;
+    
+    }
+    
+    
