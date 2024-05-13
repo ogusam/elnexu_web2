@@ -24,7 +24,7 @@ let slider=tns({
     responsive: {
         1600: {
             items:5,
-            gutter : 20
+            gutter : 5
         },
         1024:{
             items:4,

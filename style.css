@@ -12,7 +12,7 @@ html::-webkit-scrollbar-track{
     background: transparent;
 }
 html::-webkit-scrollbar-thumb{
-    background: #002580;
+    background: #3E4095;
     border-radius: .5rem;
 }
 
@@ -57,7 +57,7 @@ section{
 }
 
 .header .nav a{
-    color: #002580;
+    color: 3E4095;
     font-weight: 400;
     font-size: large;
 }
@@ -90,7 +90,7 @@ section{
 
 
 #btn{
-    background: #002580;
+    background: #3E4095;
     color: white;
     width: 15rem;
     height: 4rem;
@@ -324,7 +324,7 @@ section{
   
   /* FOOTER*/
   .footer{
-    background:#002580;
+    background:#3E4095;
   }
 
   .footer .box-container{
@@ -373,7 +373,7 @@ section{
 
 .footer .share a:hover{
     color: white;
-    background:#3E4095;
+    background:#002580;
     transform: rotate(360deg);
 }
 .footer .copyright{
@@ -394,10 +394,10 @@ section{
 /*Image slider*/
 
 #slider{
-    height: 500px;
-    border: 1px solid #002580;
+    height: 450px;
+    border: 1px solid #3E4095;
     display: flex;
-    
+    background-color:rgb(225, 236, 240);
     justify-content: center;
     align-items: center;
 }
@@ -407,7 +407,7 @@ section{
     margin: auto;
 }
 .subcontainer{
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 .slide-img{
@@ -438,6 +438,18 @@ section{
 }
 .img-5{
     background-image: url(./assets/steerling.png);
+}
+.img-6{
+    background-image: url(./assets/3-line.png);
+}
+.img-7{
+    background-image: url(./assets/fcmb.png);
+}
+.img-8{
+    background-image: url(./assets/VGGlogo1.png);
+}
+.img-9{
+    background-image: url(./assets/STERLING2.png);
 }
 
 @media (max-width:1600px) {
