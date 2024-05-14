@@ -495,9 +495,7 @@ section{
     }
 }
 
-.pos1{
-    width: 275;
-}
+
 .pos-container{
     display: flex;
     justify-content: center;
@@ -528,6 +526,6 @@ section{
 }
 .pos-content p{
     color: aliceblue;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.3;
 }
