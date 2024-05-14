@@ -32,13 +32,13 @@
                 <option value="Dr">Dr.</option>
                 <option value="Other">Other</option>
               </select></p>
-              <div>
               
-              <p><input placeholder="Surname..." oninput="this.className = ''" name="surname"></p>
-              </div>
+              
+              <input placeholder="Surname..." oninput="this.className = ''" name="surname">
+              
               <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
               <p><input placeholder="Middle name..." oninput="this.className = ''" name="mname"></p>
-              <p><input type="date" placeholder="Date of Birth..." oninput="this.className = ''" name="dob"></p>
+              <p><input placeholder="Date of Birth..."  oninput="this.className = ''"  type="date" name="dob"></p>
               <p><select name="gender">
                 <option value="male">Male</option>
                 <option value="female">Female</option>
@@ -55,7 +55,7 @@
             <div class="tab">
               <h1>Contact Details:</h1>
               <p><input placeholder="Email..." oninput="this.className = ''" name="email"></p>
-              <p><input placeholder="BVN..." oninput="this.className = ''" name="bvn"></p>
+              <p><input placeholder="BVN..." oninput="this.className = ''" name="bvn" max="11" min="11"></p>
               <p><input placeholder="Residential address..." oninput="this.className = ''" name="address"></p>
               <p><input placeholder="State..." oninput="this.className = ''" name="state"></p>
               <p><input placeholder="Local Government..." oninput="this.className = ''" name="localgovt"></p>

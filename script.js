@@ -39,3 +39,6 @@ let slider=tns({
         }
     }
 })
+
+
+
