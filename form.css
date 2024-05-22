@@ -76,7 +76,7 @@
   }
   
   .step.finish {
-    background-color: blue;
+    background-color: #002580;
   }
   
 
@@ -101,7 +101,7 @@
 }
 .header .nav{
     font-size: 1.7rem;
-    color: blue;
+    color:#002580;
     margin: 0 5rem;
     
     

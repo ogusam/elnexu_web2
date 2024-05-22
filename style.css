@@ -25,7 +25,7 @@ section{
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     transition: .2s linear;
 }
 .header{
@@ -105,7 +105,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    animation: bgChange 10s linear infinite;
+    animation: bgChange 50s linear infinite;
 }
 @keyframes bgChange{
     0%{
@@ -120,8 +120,7 @@ section{
     50%{
         background-image: url('./assets/pos3.jpg');
     }
-    75%{
-    }
+    
 
 
 }
@@ -246,18 +245,16 @@ section{
     height: 40rem;
     width: 30rem;
   }
-  /*.products{
-    display: flex;
-    flex-direction:column;
-    align-content: center;
-    align-items: center;
+  .products{
+    background: #3E4095;
   }
-  */
+  
   .elpay{
     display: block;
     height: 20rem;
     width: 30rem;
     background: rgb(225, 236, 240);
+    border-radius: 5px;
   }
   .consultation{
     display: block;
@@ -265,6 +262,7 @@ section{
     text-align: justify;
     background: rgb(225, 236, 240);
     padding: 10px;
+    border-radius: 5px;
   }
   .product_container{
     display: flex;
@@ -286,6 +284,7 @@ section{
     text-align: justify;
     background:rgb(225, 236, 240);
     padding: 10px;
+    border-radius: 5px;
     
     
   }
@@ -410,7 +409,7 @@ section{
 
 .footer .share a:hover{
     color: white;
-    background:#002580;
+    background:#3E4095;
     transform: rotate(360deg);
 }
 .footer .copyright{

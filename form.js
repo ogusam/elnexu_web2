@@ -45,6 +45,7 @@ function validateForm() {
     document.getElementsByClassName("step")[currentTab].className += " finish";
   }
   return valid;
+  
 }
 
 function fixStepIndicator(n) {
@@ -58,5 +59,13 @@ function fixStepIndicator(n) {
 
 function submitForm() {
     // Perform final validation and submission here
-    alert('Form Submitted Successfully!');
+    if (checkbox.checked){
+      // display result by assigning to innerHTML of the text element.
+      text.innerHTML="Thank you for accepting the agreement";
+  }
+  else{
+      text.innerHTML = "Please accept the agreement to proceed";
+  }
+
+    alert('Form submitted successfully , Thank you for choosing elpay. You will receive an update within 24 hours');
 }
